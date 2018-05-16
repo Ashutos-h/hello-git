@@ -1,0 +1,25 @@
+Some Git commands along with their functions are:
+1.Command: sudo apt install git
+  Function:This command is used to install Git tools in Linux.
+2.Command: git init
+  Function:This command creates a new Git repository(.git) within the current directory.In other words,it is used to allocate workspace to Git.
+3.Command: git add filename(ex:testfile.txt)
+  Function:This command adds the specified file, present in the current directory, to the staging area.
+4.Command: git add .
+  Function:This command adds all modified and new(untracked) files in the current directory and all subdirectories to the staging area.
+5.Command: git commit -m "Initial Commit"
+  Function:This command is used to commit(save) all the changes to the local repository.Here, use of Initial Commit as message is purely a convention and it is up to us whether we follow this convention or not.We can place any message in place of "Initial Commit".
+6.Command: git commit -am "My Message"
+  Function:This command is used in order to add and commit a file together using one single command instead of using two different commands for adding and commiting.This command,however, can only be used for files which have already been added atleast once.
+7.Command: git status
+  Function:this commands lists all the files that are left to be added and commited/commited.
+8.Command: git config --global user.name "Username"
+  Function:This command is used to save the Git username of a user which is to be associated with each of his/her commitsglobally.
+9.Command: git config --global user.email "E-mail_address"
+  Function:This command is used to save the Git email of a user which is to be associated with each of his/her commits globally.
+10.Command: git remote add origin (Paste the remote link here)
+  Function:This command is used to connect the remote repository with my local repository.
+11.Command: git remote -v
+  Function:This command tests whether the connection between remote and local repository has been established or not.
+12.Command: git push origin master
+  Function:This command is used to upload content of local repository to remote repository.  
